@@ -65,7 +65,7 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-purple-50 p-8">
+    <div className="p-8">
       <div className="max-w-6xl mx-auto">
         <header className="text-center mb-12">
           <h1 className="text-4xl font-bold text-gray-800 mb-4">
@@ -133,7 +133,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="mt-8 grid md:grid-cols-2 gap-6">
+        <div id="features" className="mt-8 grid md:grid-cols-2 gap-6">
           <div className="bg-white rounded-lg shadow-md p-6">
             <h3 className="text-xl font-bold mb-4 flex items-center">
               <BookOpen className="w-6 h-6 mr-2 text-blue-500" />
@@ -163,7 +163,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="mt-8 bg-yellow-50 border border-yellow-200 rounded-lg p-6">
+        <div id="setup" className="mt-8 bg-yellow-50 border border-yellow-200 rounded-lg p-6">
           <h3 className="text-lg font-bold text-yellow-800 mb-2">🔧 Setup Instructions</h3>
           <div className="text-yellow-700 space-y-1">
             <p>1. n8n running at: <code className="bg-yellow-100 px-2 py-1 rounded">http://localhost:5678</code></p>
